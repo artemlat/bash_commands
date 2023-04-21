@@ -9,4 +9,3 @@
 7. Create 3 folders: `mkdir first_folder second_folder third_folder`
 8. Show folder content list: `ls -la`
 9. Open some of created txt files: `cat >> 1t.txt`
-
