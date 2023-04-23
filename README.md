@@ -27,7 +27,8 @@
 ### 18. Show several of the last lines from the text file: `tail -n2 folder_2/1t.txt`
 ### 19. Show content of a large file: `less folder_1/2t.txt`
 ### 20. Show current date and time: `date`
-### 21. Send http request to the server http://162.55.220.72:5005/terminal-hw-request `curl http://162.55.220.72:5005/terminal-hw-request`
+### 21. Send http request to the server http://162.55.220.72:5005/terminal-hw-request:  
+`curl http://162.55.220.72:5005/terminal-hw-request`
 ### 22. Write a bash script which does the steps # 3-8, # 13:  
 `Create a folder "linux_terminal"`    
 `vim script.sh`    
