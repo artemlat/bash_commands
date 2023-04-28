@@ -98,7 +98,8 @@ $ find . -name '2j.json'
 ```
 
 ### 16. Show file content in real time: 
-*Tip: If we need to check updating of the line e.g. "line1" in the file we can use this command* `tail -f ./folder_2/1t.txt | grep "line1"`
+*Tip: If we need to check updating of the line e.g. "line1" in the file we can use this command*   
+`tail -f ./folder_2/1t.txt | grep "line1"`
 
 ```
 artem@DESKTOP-4FHC137 MINGW64 /d/qa/34_group/linux_terminal
