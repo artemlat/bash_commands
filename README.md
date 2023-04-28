@@ -130,24 +130,70 @@ $ tail -n2 folder_2/1t.txt
 ```
 less folder_1/2t.txt
 ```
+```
+Древность
+
+Устная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+Таблички
+Шумерская глиняная табличка с клинописью
+
+Табличку можно определить как физически прочный, надёжный носитель письменной информации, относительно удобный в повседневном использовании и транспортировке. Пишущим средством в этом случае, как правило, выступало стило. Можно выделить два основных типа табличек: глиняные (например, у населения долины между Тигром и Евфратом), которые часто использовались для письма клинописью[4], и восковые. Последние представляли собой дощечки, покрытые слоем воска, в то время как глиняные полностью состояли из глины и после нанесения надписей часто обжигались для придания им дополнительной прочности. После этой процедуры, соответственно, изменить текст было уже невозможно; напротив, записи на восковых табличках можно было стереть и использовать носитель повторно. В Древнем Риме дощечки часто скрепляли друг с другом. Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6].
+Свитки
+folder_1/2t.txt
+```
+
 *Press `q` to quit the file*
-### 20. Show current date and time: `date`
+### 20. Show current date and time: 
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/qa/34_group/linux_terminal
+$ date
+Fri Apr 28 20:39:48     2023
+```
 ### 21. Send http request to the server http://162.55.220.72:5005/terminal-hw-request:  
-`curl http://162.55.220.72:5005/terminal-hw-request`
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/qa/34_group/linux_terminal
+$ curl http://162.55.220.72:5005/terminal-hw-request
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (7) Failed to connect to 162.55.220.72 port 5005 after 2212 ms: Connection refused
+```
+
 ### 22. Write a bash script which does the steps # 3-8, # 13:  
-`Create a folder "linux_terminal"`    
-`vim script.sh`    
-`Press [Enter]`  
-`Press "i"`  
-`#!/bin/bash`  
-`cd linux_terminal`  
-`mkdir script_folder1 script_folder2 script_folder3`  
-`cd script_folder1`  
-`touch script_file1.txt script_file2.txt script_file3.txt script_file4.json script_file5.json`  
-`mkdir 1scripted 2scripted 3scripted`  
-`ls -la`  
-`mv /d/linux_terminal/script_folder1/script_file1.txt /d/linux_terminal/script_folder1/script_file5.json /d/linux_terminal/script_folder2`
-
-
-
+*Create a folder "linux_terminal"*    
+```
+vim script.sh
+```
+*Press `Enter`*  
+*Press `i`* 
+```
+#!/bin/bash 
+cd linux_terminal  
+mkdir script_folder1 script_folder2 script_folder3 
+cd script_folder1  
+touch script_file1.txt script_file2.txt script_file3.txt script_file4.json script_file5.json 
+mkdir 1scripted 2scripted 3scripted  
+ls -la  
+mv /d/linux_terminal/script_folder1/script_file1.txt /d/linux_terminal/script_folder1/script_file5.json /d/linux_terminal/script_folder2
+```
+*Press `Enter`*
+*Press `ESC`*
+*Input `:wq`*
+*Press `Enter`*
+*To run the sctipt:*
+```
+artem@DESKTOP-4FHC137 MINGW64 /d
+$ bash script.sh
+total 4
+drwxr-xr-x 1 artem 197609 0 Apr 28 20:51 .
+drwxr-xr-x 1 artem 197609 0 Apr 28 20:51 ..
+drwxr-xr-x 1 artem 197609 0 Apr 28 20:51 1scripted
+drwxr-xr-x 1 artem 197609 0 Apr 28 20:51 2scripted
+drwxr-xr-x 1 artem 197609 0 Apr 28 20:51 3scripted
+-rw-r--r-- 1 artem 197609 0 Apr 28 20:51 script_file1.txt
+-rw-r--r-- 1 artem 197609 0 Apr 28 20:51 script_file2.txt
+-rw-r--r-- 1 artem 197609 0 Apr 28 20:51 script_file3.txt
+-rw-r--r-- 1 artem 197609 0 Apr 28 20:51 script_file4.json
+-rw-r--r-- 1 artem 197609 0 Apr 28 20:51 script_file5.json
+```
 
