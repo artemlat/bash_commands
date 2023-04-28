@@ -110,9 +110,27 @@ $ tail -f folder_2/1t.txt
 ```
 *Press `Ctrl+C` to quit the file*
 
-### 17. Show several of the first lines from the text file: `head -n2 folder_2/1t.txt`
-### 18. Show several of the last lines from the text file: `tail -n2 folder_2/1t.txt`
-### 19. Show content of a large file: `less folder_1/2t.txt`
+### 17. Show several of the first lines from the text file: 
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/qa/34_group/linux_terminal
+$ head -n2 folder_2/1t.txt
+111111
+222222
+```
+### 18. Show several of the last lines from the text file:
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/qa/34_group/linux_terminal
+$ tail -n2 folder_2/1t.txt
+333333
+444444
+```
+
+### 19. Show content of a large file: 
+*Add large text to the file 2t.txt*
+```
+less folder_1/2t.txt
+```
+*Press `q` to quit the file*
 ### 20. Show current date and time: `date`
 ### 21. Send http request to the server http://162.55.220.72:5005/terminal-hw-request:  
 `curl http://162.55.220.72:5005/terminal-hw-request`
