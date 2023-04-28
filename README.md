@@ -176,11 +176,11 @@ mkdir 1scripted 2scripted 3scripted
 ls -la  
 mv /d/linux_terminal/script_folder1/script_file1.txt /d/linux_terminal/script_folder1/script_file5.json /d/linux_terminal/script_folder2
 ```
-*Press `Enter`*
-*Press `ESC`*
-*Input `:wq`*
-*Press `Enter`*
-*To run the sctipt:*
+*Press `Enter`*  
+*Press `ESC`*  
+*Input `:wq`*  
+*Press `Enter`*  
+*To run the script:*
 ```
 artem@DESKTOP-4FHC137 MINGW64 /d
 $ bash script.sh
