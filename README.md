@@ -166,7 +166,7 @@ curl: (7) Failed to connect to 162.55.220.72 port 5005 after 2212 ms: Connection
 vim script.sh
 ```
 *Press `Enter`*  
-*Press `i`* 
+*Press `INS`* 
 ```
 #!/bin/bash 
 cd linux_terminal  
