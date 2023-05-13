@@ -161,7 +161,7 @@ curl: (7) Failed to connect to 162.55.220.72 port 5005 after 2212 ms: Connection
 ```
 
 ### 22. Write a bash script which does the steps # 3-8, # 13:  
-*Create a folder "linux_terminal" and enter it. Then oper bash console:*    
+*Create a folder "linux_terminal" and enter it. Then open bash console:*    
 ```
 vim script.sh
 ```
